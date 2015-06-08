@@ -1,0 +1,92 @@
+* a:focus {
+  text-decoration: none;
+  outline: none;
+}
+.purpose .purpose-box {
+  padding-top: 78px;
+}
+.purpose .purpose-box .purpose-title {
+  margin-bottom: 40px;
+}
+.purpose .purpose-box .slogan {
+  font-family: 'proxima_novaregular_italic';
+  font-size: 21px;
+  color: #929292;
+  margin-bottom: 20px;
+}
+.purpose .purpose-box .slogan-autor {
+  font-family: 'proxima_nova_rgregular';
+  font-size: 18px;
+  color: #929292;
+  margin-bottom: 74px;
+}
+.purpose .purpose-box .purpose-video-block {
+  padding: 77px 0 60px 0;
+}
+.purpose .purpose-box .purpose-video-block img {
+  width: 100%;
+  border-radius: 6px;
+}
+.purpose .purpose-box .content-box-title {
+  font-size: 22px;
+  margin-bottom: 27px;
+}
+.purpose .purpose-box .left-box-rey {
+  padding-right: 35px;
+}
+.purpose .purpose-box .right-box-rey {
+  padding-left: 35px;
+}
+@media only screen and (max-width: 480px) {
+  .purpose .purpose-box {
+    padding-top: 0;
+  }
+  .purpose .purpose-box .purpose-title {
+    margin-bottom: 0;
+  }
+  .purpose .purpose-box .slogan {
+    font-family: 'proxima_novaregular_italic';
+    font-size: 16px;
+    color: #929292;
+    margin-bottom: 10px;
+  }
+  .purpose .purpose-box .slogan-autor {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    color: #929292;
+    margin-bottom: 10px;
+  }
+  .purpose .purpose-box .purpose-video-block {
+    padding: 10px 0;
+  }
+  .purpose .purpose-box .purpose-video-block img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .purpose .purpose-box .content-box-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .purpose .purpose-box .left-box-rey {
+    padding-right: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  .purpose .purpose-box .right-box-rey {
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  .purpose .purpose-box .content-box-grey {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+  .purpose-video-block {
+    padding: 10px 0;
+  }
+  .purpose-video-block img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

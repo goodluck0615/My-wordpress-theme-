@@ -1,0 +1,194 @@
+#header-team {
+  height: 505px;
+  margin-bottom: 2%;
+  background: url('../images/team-bg.jpg') 0 0 repeat-x;
+}
+#header-team .container {
+  text-align: center;
+  padding: 7% 0;
+}
+#header-team .container h1 {
+  font-family: 'proxima_novasemibold';
+  text-transform: uppercase;
+  font-size: 70px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+#header-team .container h1 .org {
+  color: #f99b43;
+}
+#tabs-team {
+  text-align: center;
+  padding: 50px 0;
+}
+#tabs-team .nav-tabs {
+  border-bottom: 3px solid #ebebeb;
+}
+#tabs-team .nav-tabs li {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: -3px;
+  border-top: none;
+  margin-right: 41px;
+}
+#tabs-team .nav-tabs li:last-child {
+  margin-right: 0;
+}
+#tabs-team .nav-tabs li:hover {
+  border-bottom: 4px solid #f89b44;
+  background: none;
+}
+#tabs-team .nav-tabs li:hover a {
+  background: none;
+  color: #f89b44;
+}
+#tabs-team .nav-tabs li a {
+  border: none;
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-family: 'proxima_novasemibold', sans-serif;
+  text-transform: uppercase;
+  color: #b9b9b9;
+}
+#tabs-team .nav-tabs .active {
+  border-bottom: 4px solid #f89b44;
+}
+#tabs-team .nav-tabs .active a {
+  color: #f89b44;
+}
+.tab-content {
+  padding: 80px 0;
+}
+.tab-content .person-block {
+  text-align: left;
+  padding: 100px 60px;
+}
+.tab-content .person-block h3 {
+  font-family: 'proxima_novasemibold';
+  font-size: 30px;
+  color: #645246;
+  margin-bottom: 20px;
+}
+.tab-content .person-block h3 .or-line {
+  border-bottom: 2px solid #f89b44;
+  padding-bottom: 20px;
+}
+.tab-content .person-block h3 .sma-letter {
+  font-size: 20px;
+  font-family: 'proxima_nova_rgregular';
+}
+.tab-content .person-block .pers-content {
+  padding: 0 5% 0 10%;
+}
+.tab-content .person-block p {
+  font-family: 'proxima_nova_rgregular';
+  line-height: 30px;
+  color: #929292;
+  font-size: 18px;
+  padding: 30px 0;
+}
+.tab-content .person-block p a {
+  color: #f89b44;
+  font-family: 'proxima_novasemibold';
+}
+.dev-team-b {
+  text-align: left;
+  margin-bottom: 125px;
+}
+.dev-team-b img {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.dev-team-b h3 {
+  color: #645246;
+  font-family: 'proxima_nova_rgregular';
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.dev-team-b p {
+  font-family: 'proxima_nova_rgregular';
+  font-size: 18px;
+  line-height: 30px;
+  color: #929292;
+}
+.person-2 {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.person-2 .row {
+  margin-bottom: 40px;
+}
+.person-2 img,
+.person-2 span {
+  display: block;
+  margin: 0 auto;
+}
+.person-2 img {
+  margin-bottom: 50px;
+}
+.person-2 .name {
+  font-size: 22px;
+  font-family: 'proxima_novasemibold';
+  color: #645246;
+}
+.person-2 .prof {
+  font-size: 17px;
+  color: #f89945;
+  font-family: 'proxima_nova_rgregular';
+}
+@media (max-width: 480px) {
+  #header-team h1 {
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 768px) {
+  #gamingIntro .video {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #gamingIntro .text {
+    text-align: center;
+  }
+  .big-icon .row {
+    margin-bottom: 0 !important;
+  }
+  .big-icon .row .wrap {
+    margin-bottom: 30px !important;
+  }
+  .book-img {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .big-icon .col-sm-12 {
+    margin-top: 30px !important;
+  }
+  .book-img {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #gamingIntro .video {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #gamingIntro .text {
+    text-align: center;
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  .book-img img {
+    width: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .big-icon .wrap.wrap-4 {
+    float: right;
+  }
+  .big-icon .wrap.wrap-5 {
+    float: left;
+  }
+}

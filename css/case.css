@@ -1,0 +1,226 @@
+#header {
+  height: 240px;
+  padding: 4% 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*margin-bottom: 18px;*/
+  background: url('../images/case-bg.jpg') 0 0 repeat-x;
+}
+#header .container {
+  text-align: center;
+  padding: 0;
+}
+#header .container h1 {
+  font-family: 'proxima_novasemibold';
+  text-transform: uppercase;
+  font-size: 70px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  margin-top: 14px;
+  margin-bottom: 22px;
+}
+#header .container h1 .org {
+  color: #f99b43;
+}
+#header .container .case-reg {
+  color: #ffffff;
+  font-size: 21px;
+  font-family: 'proxima_nova_rgregular';
+  margin-top: 22px;
+}
+#content {
+  background: url("../images/contacus.jpg") no-repeat 50% 100%;
+  background-size: 100%;
+  padding-bottom: 300px;
+}
+#content .row {
+  padding: 55px 0 0;
+}
+#content .row .container {
+  border-bottom: 2px solid #ebebeb;
+  padding-top: 53px;
+}
+#content .row .container .image-left-b img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+#content .patient {
+  padding-bottom: 59px;
+}
+#content .patient h3 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 30px;
+  color: #645246;
+  font-family: 'proxima_novasemibold';
+}
+#content .patient h3 span.line {
+  display: block;
+  margin-top: 25px;
+  width: 53px;
+  border: 1px solid #f89b44;
+}
+#content .patient h3 p {
+  font-family: 'proxima_nova_rgregular';
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+#content .patient h4 {
+  font-family: 'proxima_novasemibold';
+  color: #645246;
+  font-size: 21px;
+  margin-top: 36px;
+  margin-bottom: 17px;
+}
+#content .patient h4 span.light {
+  font-family: 'proxima_novalight';
+}
+#content .patient p {
+  font-family: 'proxima_nova_rgregular';
+  color: #929292;
+  font-size: 16px;
+  line-height: 1.8;
+}
+#content .pager-cont .row {
+  padding: 0;
+}
+#content .pager-cont .row .container {
+  border-bottom: none;
+}
+#content .pager-cont .pager-deff {
+  padding: 0;
+  margin: 30px 0 0;
+  list-style: none;
+}
+#content .pager-cont .pager-deff li {
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+#content .pager-cont .pager-deff li span {
+  display: block;
+  text-align: center;
+  line-height: 30;
+}
+#content .pager-cont .pager-deff li a {
+  text-align: center;
+  line-height: 30px;
+  display: block;
+  min-width: 30px;
+  min-height: 30px;
+  font-size: 15px;
+  font-family: 'proxima_novasemibold';
+  text-transform: capitalize;
+  color: #9a9a9a;
+}
+#content .pager-cont .pager-deff li a.next {
+  width: auto;
+  padding: 0 15px;
+}
+#content .pager-cont .pager-deff li a:hover {
+  color: #f89b44;
+  text-decoration: none;
+}
+#content .pager-cont .pager-deff .active a {
+  color: #f89b44;
+}
+/*@media (max-width: 480px) {
+    #header {
+        h1 {
+            margin-top: 20px !important;
+        }
+    }
+}*/
+@media (max-width: 768px) {
+  #gamingIntro .video {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #gamingIntro .text {
+    text-align: center;
+  }
+  .big-icon .row {
+    margin-bottom: 0 !important;
+  }
+  .big-icon .row .wrap {
+    margin-bottom: 30px !important;
+  }
+  .book-img {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .big-icon .col-sm-12 {
+    margin-top: 30px !important;
+  }
+  .book-img {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #gamingIntro .video {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #gamingIntro .text {
+    text-align: center;
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  .book-img img {
+    width: 120px;
+  }
+}
+@media (min-width: 517px) and (max-width: 600px) {
+  #header {
+    height: 400px !important;
+    margin-bottom: 0 !important;
+  }
+  #header .container h1 {
+    font-size: 56px !important;
+  }
+}
+@media (min-width: 400px) and (max-width: 516px) {
+  #header {
+    height: 293px !important;
+    margin-bottom: 0 !important;
+    padding: 14% 0;
+  }
+  #header .container h1 {
+    font-size: 50px !important;
+  }
+  #header .container .case-reg {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 399px) {
+  #header {
+    height: 255px !important;
+    margin-bottom: 0 !important;
+    padding: 16% 0 !important;
+  }
+  #header .container h1 {
+    font-size: 34px !important;
+  }
+  #header .container .case-reg {
+    font-size: 11px !important;
+  }
+  #content .patient {
+    padding-bottom: 59px;
+  }
+  #content .patient h3 {
+    font-size: 25px;
+  }
+}
+@media (min-width: 1200px) {
+  .big-icon .wrap.wrap-4 {
+    float: right;
+  }
+  .big-icon .wrap.wrap-5 {
+    float: left;
+  }
+}

@@ -1,0 +1,313 @@
+.support {
+  background-color: #f6f8fa;
+  padding: 50px 0;
+  margin-bottom: 98px;
+  min-height: 443px;
+}
+.support h4 {
+  font-family: 'proxima_novasemibold';
+  font-size: 30px;
+  color: #645246;
+}
+.support .support-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.support .support-list li {
+  font-size: 17px;
+  font-family: 'proxima_nova_rgregular';
+  line-height: 26px;
+  color: #929292;
+  height: 55px;
+  padding-left: 76px;
+  margin-bottom: 26px;
+}
+.support .support-list .icon-1 {
+  background: url(../images/support-icon.png) 0 0 no-repeat;
+}
+.support .support-list .icon-2 {
+  background: url(../images/support-icon.png) 0 -80px no-repeat;
+}
+.support .support-list .icon-3 {
+  background: url(../images/support-icon.png) 0 -160px no-repeat;
+}
+.support .clients {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.support .clients li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 100px;
+}
+.support .clients li a {
+  display: block;
+  width: 216px;
+  height: 100px;
+}
+.support .clients li .client-icon img {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 480px) {
+  .support {
+    background-color: #f6f8fa;
+    padding: 10px 0;
+    margin-bottom: 0;
+    min-height: 443px;
+  }
+  .support h4 {
+    font-family: 'proxima_novasemibold';
+    font-size: 25px;
+    color: #645246;
+    text-align: center;
+  }
+  .support .support-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .support .support-list li {
+    font-size: 17px;
+    font-family: 'proxima_nova_rgregular';
+    line-height: 26px;
+    color: #929292;
+    height: 55px;
+    padding-left: 76px;
+    margin-bottom: 26px;
+  }
+  .support .support-list .icon-1 {
+    background: url(../images/support-icon.png) 0 0 no-repeat;
+  }
+  .support .support-list .icon-2 {
+    background: url(../images/support-icon.png) 0 -80px no-repeat;
+  }
+  .support .support-list .icon-3 {
+    background: url(../images/support-icon.png) 0 -160px no-repeat;
+  }
+  .support .clients {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .support .clients li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    overflow: hidden;
+    width: 100%;
+  }
+  .support .clients li a {
+    display: block;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .support .clients li .client-icon-1 {
+    background: url(../images/clients/accuscore.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-1:hover {
+    background: url(../images/clients/accuscore-col.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-2 {
+    background: url(../images/clients/arkadium.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-2:hover {
+    background: url(../images/clients/arcadium-col.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-3 {
+    background: url(../images/clients/bizz.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-3:hover {
+    background: url(../images/clients/bizz-col.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-4 {
+    background: url(../images/clients/work-relay.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-4:hover {
+    background: url(../images/clients/work-relay-col.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-5 {
+    background: url(../images/clients/epik.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-5:hover {
+    background: url(../images/clients/epik-col.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-6 {
+    background: url(../images/clients/newdea.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-6:hover {
+    background: url(../images/clients/newdea-col.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-7 {
+    background: url(../images/clients/silver.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-7:hover {
+    background: url(../images/clients/silver-col.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-8 {
+    background: url(../images/clients/stock-brain.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-8:hover {
+    background: url(../images/clients/stock-brain-col.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-9 {
+    background: url(../images/clients/gwynn-group.png) 0 0 no-repeat;
+  }
+  .support .clients li .client-icon-9:hover {
+    background: url(../images/clients/gwynn-group-col.png) 0 0 no-repeat;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .clients {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .clients li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px !important;
+  }
+  .clients li a {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+  }
+  .clients li a img {
+    display: block;
+    width: 100%;
+  }
+  .clients li .client-icon img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  .support {
+    background-color: #f6f8fa;
+    padding: 50px 0;
+    margin-bottom: 5%;
+    min-height: 48em;
+    clear: both;
+  }
+  .support .col-sm-4,
+  .support .col-md-4 {
+    width: 100%;
+    float: none;
+    margin-bottom: 15%;
+  }
+  .support h4 {
+    font-family: 'proxima_novasemibold';
+    font-size: 30px;
+    color: #645246;
+    text-align: center;
+  }
+  .support .support-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .support .support-list li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px;
+    font-family: 'proxima_nova_rgregular';
+    line-height: 26px;
+    color: #929292;
+    padding: 106px 0 0;
+    margin-bottom: 26px;
+    text-align: center;
+    height: 100px;
+    width: 32.7%;
+  }
+  .support .support-list .icon-1 {
+    background: url(../images/support-i-768.png) 70px 0 no-repeat;
+  }
+  .support .support-list .icon-2 {
+    background: url(../images/support-i-768.png) -190px 0 no-repeat;
+  }
+  .support .support-list .icon-3 {
+    background: url(../images/support-i-768.png) -440px 0 no-repeat;
+  }
+  .support .col-sm-8,
+  .support .col-md-8 {
+    width: 100%;
+    float: none;
+  }
+  .support .clients {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .support .clients li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+  }
+  .support .clients li a {
+    display: block;
+    margin: 0 auto;
+  }
+  .support .clients li .client-icon img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .clients {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .clients li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 100px !important;
+  }
+  .clients li a {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+  }
+  .clients li a img {
+    display: block;
+    width: 100%;
+  }
+  .clients li .client-icon img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 1020px) {
+  .clients {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .clients li {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 34px !important;
+  }
+  .clients li a {
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+  }
+  .clients li a img {
+    display: block;
+    width: 100%;
+  }
+  .clients li .client-icon img {
+    width: 100%;
+    height: auto;
+  }
+}

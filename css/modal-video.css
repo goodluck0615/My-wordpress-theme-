@@ -1,0 +1,284 @@
+#modalVideo .modal-dialog,
+.modalVideo .modal-dialog {
+  width: 95%;
+  height: 95%;
+}
+#modalVideo .modal-dialog .modal-content,
+.modalVideo .modal-dialog .modal-content {
+  height: 100%;
+}
+#modalVideo .modal-dialog .modal-content .modal-body,
+.modalVideo .modal-dialog .modal-content .modal-body {
+  padding: 0;
+  border-radius: 0;
+  height: 100%;
+}
+#modalVideo .modal-dialog .modal-content .modal-body iframe,
+.modalVideo .modal-dialog .modal-content .modal-body iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  vertical-align: top;
+}
+#modalVideo .modal-dialog .modal-content .modal-body .close,
+.modalVideo .modal-dialog .modal-content .modal-body .close {
+  position: absolute;
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  right: -15px;
+  top: -15px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  background-color: #7b796a;
+  color: #fff;
+  opacity: 1;
+}
+.purpose-video-block a img {
+  width: 100%;
+}
+#modalForm {
+  z-index: 9999;
+}
+#modalForm .carousel .item iframe {
+  /*  width: 100% !important;
+    height: 320px; */
+}
+.carousel-inner > .next,
+.carousel-inner > .prev {
+  position: relative;
+}
+.carousel-indicators {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  left: 0 !important;
+  margin: 0 !important;
+}
+.carousel-indicators li {
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+  width: 24% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: auto !important;
+  text-indent: 0 !important;
+}
+.carousel-indicators li.active {
+  width: 24% !important;
+  height: auto !important;
+}
+.carousel-indicators li img {
+  border: none;
+  border-radius: 0px;
+  width: 100%;
+  margin-bottom: 17px;
+}
+#modalForm .modal-dialog .modal-content {
+  border-radius: 0px;
+}
+#modalForm .modal-dialog .modal-content .modal-body {
+  padding: 31px 20px;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block {
+  padding: 0;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to {
+  background: url(../images/envelope.png) 0 center no-repeat;
+  min-height: 44px;
+  padding-left: 74px;
+  margin-bottom: 25px;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to span {
+  display: block;
+  font-family: 'proxima_nova_rgregular';
+  color: #645246;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to .top-text {
+  font-size: 24px;
+  line-height: 26px;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to .phone {
+  font-family: 'proxima_novalight';
+  font-size: 20px;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form input {
+  border: 1px solide;
+  color: #929292;
+  font-size: 16px;
+  font-family: 'proxima_nova_rgregular';
+  height: 52px;
+  padding: 15px 21px;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .form-group {
+  padding: 0;
+  margin-bottom: 7px;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .form-control:-ms-input-placeholder {
+  color: #929292;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .form-control::-webkit-input-placeholder {
+  color: #929292;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .form-control::-ms-input-placeholder {
+  color: #929292;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .form-control:-moz-placeholder {
+  color: #929292;
+  opacity: 1;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .form-control::-moz-placeholder {
+  color: #929292;
+  opacity: 1;
+}
+#modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .textarea-box {
+  margin-bottom: 22px;
+}
+#modalForm .modal-dialog .modal-content .modal-body button.close {
+  background-color: #f99c44;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white;
+  font-size: 21px;
+  opacity: 1;
+  padding: 6px 12px;
+  position: absolute;
+  right: -36px;
+  top: 0;
+}
+#modalForm .top-contact-btn {
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 13px 45px;
+  margin-top: 5px;
+  background-color: #f99c44;
+  font-size: 15px;
+  font-family: 'proxima_novasemibold';
+  text-transform: uppercase;
+  border: 0 none;
+}
+#modalForm .top-contact-btn:hover,
+#modalForm .top-contact-btn:active,
+#modalForm .top-contact-btn:focus {
+  background-color: #f1b882;
+  color: #ffffff;
+  text-decoration: none;
+}
+#modalForm textarea {
+  resize: none;
+}
+.carousel-inner .item {
+  position: relative;
+  margin-bottom: 20px;
+}
+.carousel-inner .item img {
+  width: 100%;
+}
+.carousel-inner .item iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#modalForm .modal-dialog {
+  width: 70%;
+}
+#modalForm .item {
+  display: none;
+}
+#modalForm .item.active {
+  display: block;
+}
+#modalForm ol li.active .videoTitle {
+  color: #645246;
+}
+#modalForm ol li .videoTitle {
+  color: #b9b9b9;
+  font-family: 'proxima_novasemibold';
+  font-size: 17px;
+}
+@media (max-width: 768px) {
+  #modalForm .modal-dialog {
+    width: 90%;
+    margin: 30px auto !important;
+  }
+}
+@media (max-width: 991px) {
+  #modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to {
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 1097px) and (max-width: 1385px) {
+  #modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to {
+    background: url(../images/envelope.png) 0 center no-repeat;
+    background-size: 48px;
+    margin-bottom: 25px;
+    min-height: 44px;
+    padding-left: 65px;
+  }
+  #modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to .top-text {
+    font-size: 17px;
+  }
+  #modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to .phone {
+    font-size: 17px;
+  }
+  #modalForm ol li .videoTitle {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1097px) {
+  #modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to {
+    background: url(../images/envelope.png) 0 center no-repeat;
+    background-size: 40px;
+    margin-bottom: 25px;
+    padding-left: 51px;
+  }
+  #modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to .top-text {
+    font-size: 14px;
+  }
+  #modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to .phone {
+    font-size: 14px;
+  }
+  #modalForm ol li .videoTitle {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #modalForm ol li .videoTitle {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 529px) and (max-width: 680px) {
+  #modalForm ol li .videoTitle {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 468px) and (max-width: 528px) {
+  #modalForm ol li .videoTitle {
+    font-size: 11px;
+  }
+}
+@media only screen and (min-width: 354px) and (max-width: 467px) {
+  #modalForm ol li .videoTitle {
+    font-size: 8px;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 353px) {
+  #modalForm ol li .videoTitle {
+    font-size: 6px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #modalForm .modal-dialog .modal-content .modal-body .modal-video-block form .talk-to .top-text {
+    font-size: 16px;
+  }
+}

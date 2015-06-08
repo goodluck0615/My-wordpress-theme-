@@ -1,0 +1,347 @@
+#header-gaming {
+  height: 240px;
+  background-image: url('../images/gaming-head.png');
+  background-size: cover;
+}
+#header-gaming .container {
+  text-align: center;
+}
+#header-gaming .container h1 {
+  font-family: 'proxima_nova_rgbold';
+  text-transform: uppercase;
+  font-size: 70px;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+#header-gaming .container h1 .org {
+  color: #f99b43;
+}
+#header-gaming .container a.talk-btn {
+  border-radius: 24px;
+  padding: 15px 20px;
+  width: 226px;
+  background-color: #dc645f;
+  color: #fff;
+  font-family: 'proxima_novasemibold';
+  text-transform: uppercase;
+  display: block;
+  margin: 60px auto 0 !important;
+  font-size: 15px;
+}
+#header-gaming .container a.talk-btn:hover {
+  text-decoration: none;
+  background-color: #e89692;
+}
+#header-gaming .container .quote {
+  font-family: 'proxima_novaregular_italic';
+  font-size: 21px;
+  color: #d5d5d5;
+}
+#header-gaming .container p {
+  font-size: 18px;
+  color: #d5d5d5;
+  margin-top: 30px;
+}
+#header-gaming .container p .reg {
+  font-family: 'proxima_nova_rgregular';
+}
+#header-gaming .container p .sem {
+  font-family: 'proxima_novasemibold';
+}
+#gamingIntro {
+  margin-bottom: 55px;
+  background-color: #f6f8fa;
+  padding: 55px 0 60px;
+}
+#gamingIntro .text {
+  font-family: 'proxima_nova_rgregular';
+}
+#gamingIntro .text .title {
+  display: inline-block;
+  font-size: 30px;
+  color: #645246;
+  margin-bottom: 25px;
+  margin-top: 27px;
+}
+#gamingIntro .text .body {
+  font-size: 18px;
+  color: #929292;
+  line-height: 1.8;
+}
+#gamingIntro .video {
+  text-align: right;
+}
+#content {
+  /*background: url('../images/contactus.jpg') no-repeat 50% 100%;*/
+  background: url("../images/contacus.jpg") no-repeat 50% 100%;
+  background-size: 100%;
+  padding-bottom: 165px;
+}
+#content .big-icon {
+  margin-bottom: 100px;
+}
+#content .big-icon .row {
+  margin-bottom: 30px;
+}
+#content .big-icon .wrap {
+  height: 195px;
+  width: 195px;
+  border-radius: 5px;
+  background-color: #f6f8fa;
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+#content .big-icon .wrap .img-wrap {
+  height: 108px;
+  position: relative;
+  margin-bottom: 15px;
+}
+#content .big-icon .wrap .img-wrap .img-pos {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+#content .big-icon .wrap span {
+  vertical-align: middle;
+  display: table-cell;
+  width: 175px;
+  height: 50px;
+  text-align: center;
+  font-family: 'proxima_novasemibold';
+  font-size: 17px;
+  color: #645246;
+}
+#content .content-text {
+  font-family: 'proxima_nova_rgregular';
+}
+#content .content-text .title {
+  font-size: 21px;
+  color: #645246;
+  margin-bottom: 20px;
+}
+#content .content-text .title .ico {
+  width: 50px !important;
+  display: inline-block;
+  margin-right: 10px;
+}
+#content .content-text .body {
+  color: #929292;
+  font-size: 16px;
+  margin-bottom: 55px;
+  font-family: 'proxima_nova_rgregular';
+  line-height: 1.8;
+}
+#content .form {
+  margin-bottom: 30px;
+}
+#content .form form {
+  background-color: #363b47;
+  padding: 0;
+  border-radius: 5px;
+  float: none;
+  display: inline-block;
+}
+#content .form form .talk-to {
+  background-color: #4e535f;
+  padding: 20px 20px 15px;
+  background-position: 20px 50%;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 20px;
+}
+#content .form form .talk-to span {
+  margin-left: 80px;
+  color: #fff;
+}
+#content .form form .form-group {
+  margin-bottom: 10px;
+}
+#content .form form input {
+  height: 50px;
+  font-family: 'proxima_novasemibold';
+  font-size: 16px;
+  background-color: #5e626c;
+  border-color: #5e626c;
+  color: #fff;
+}
+#content .form form textarea {
+  font-family: 'proxima_novasemibold';
+  font-size: 16px;
+  background-color: #5e626c;
+  border-color: #5e626c;
+  color: #fff;
+}
+#content .form form .submit {
+  background-color: #f89945;
+  width: 140px;
+  border: none;
+  border-radius: 40px;
+  text-transform: uppercase;
+  height: 40px;
+}
+#content .form form .submit:hover {
+  background-color: #FCB373;
+}
+#content .book {
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 25px;
+  padding-top: 15px;
+  font-family: 'proxima_nova_rgregular';
+  background: rgba(255, 255, 255, 0);
+  background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 61%, #f3f3f3 92%);
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 61%, #f3f3f3 92%);
+  background: -o-linear-gradient(90deg, rgba(255, 255, 255, 0) 61%, #f3f3f3 92%);
+  background: -ms-linear-gradient(90deg, rgba(255, 255, 255, 0) 61%, #f3f3f3 92%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 61%, #f3f3f3 92%);
+}
+#content .book .title {
+  font-size: 24px;
+  color: #645246;
+  margin-bottom: 9px;
+  padding-left: 5px;
+}
+#content .book .text {
+  color: #929292;
+  font-size: 16px;
+  line-height: 25px;
+  padding-left: 20px;
+}
+#content .book .book-down {
+  /*margin-top: 10px;*/
+  width: 140px;
+  padding: 20px;
+  background-color: #dc645f;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #fff;
+  font-family: 'proxima_novasemibold';
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+}
+#content .book .book-down:hover {
+  text-decoration: none;
+  background-color: #e89692;
+}
+#content .book form .form-group div {
+  margin-bottom: 10px;
+}
+#content .book form .form-group div .form-control:-ms-input-placeholder {
+  color: #929292;
+}
+#content .book form .form-group div .form-control::-webkit-input-placeholder {
+  color: #929292;
+}
+#content .book form .form-group div .form-control::-ms-input-placeholder {
+  color: #929292;
+}
+#content .book form .form-group div .form-control:-moz-placeholder {
+  color: #929292;
+  opacity: 1;
+}
+#content .book form .form-group div .form-control::-moz-placeholder {
+  color: #929292;
+  opacity: 1;
+}
+/*@media (max-width: 480px) {
+    #header-gaming {
+        h1 {
+            margin-top: 20px !important;
+        }
+    }
+}*/
+@media (max-width: 768px) {
+  #gamingIntro .video {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #gamingIntro .text {
+    text-align: center;
+  }
+  .big-icon .row {
+    margin-bottom: 0 !important;
+  }
+  .big-icon .row .wrap {
+    margin-bottom: 30px !important;
+  }
+  .book-img {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .big-icon .col-sm-12 {
+    margin-top: 30px !important;
+  }
+  .book-img {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #gamingIntro .video {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #gamingIntro .text {
+    text-align: center;
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  .book-img img {
+    width: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .big-icon .wrap.wrap-4 {
+    float: right;
+  }
+  .big-icon .wrap.wrap-5 {
+    float: left;
+  }
+}
+@media (min-width: 601px) and (max-width: 990px) {
+  #header-gaming {
+    /*        height: 400px !important;
+        margin-bottom: 0 !important;*/
+  }
+  #header-gaming .container h1 {
+    font-size: 68px !important;
+    /*padding: 21% 0 !important;*/
+  }
+}
+@media (min-width: 517px) and (max-width: 600px) {
+  #header-gaming .container h1 {
+    font-size: 87px !important;
+  }
+}
+@media (min-width: 400px) and (max-width: 516px) {
+  #header-gaming {
+    padding: 12% 2px;
+  }
+  #header-gaming .container h1 {
+    font-size: 87px !important;
+  }
+  #header-gaming .container .quote {
+    display: none;
+  }
+  #header-gaming .container p {
+    display: none;
+  }
+}
+@media (max-width: 399px) {
+  #header-gaming {
+    padding: 20% 0;
+  }
+  #header-gaming .container h1 {
+    font-size: 65px !important;
+  }
+  #header-gaming .container .quote {
+    display: none;
+  }
+  #header-gaming .container p {
+    display: none;
+  }
+}

@@ -1,0 +1,335 @@
+.learn-gray {
+  display: block;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #999b9f;
+  padding: 10px 30px;
+  color: #fff;
+  font-family: 'proxima_novasemibold';
+  text-transform: uppercase;
+  width: 173px;
+  font-size: 15px;
+}
+.learn-gray:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(153, 155, 159, 0.81);
+}
+#header-approach {
+  height: 240px;
+  background: url('../images/our-approach-bg.jpg') 0 0 repeat-x;
+}
+#header-approach .container {
+  text-align: center;
+}
+#header-approach .container h1 {
+  padding: 7% 0;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: 'proxima_nova_rgbold';
+}
+#header-approach .container h1 .org {
+  color: #f99b43;
+}
+#header-approach .container a.talk-btn {
+  border-radius: 20px;
+  padding: 15px 30px;
+  width: 300px;
+  background-color: #dc645f;
+  color: #fff;
+  font-family: 'proxima_novasemibold';
+  text-transform: uppercase;
+  display: block;
+  margin: 60px auto 0 !important;
+  font-size: 15px;
+}
+#header-approach .container a.talk-btn:hover {
+  text-decoration: none;
+  background-color: #e89692;
+}
+#header-approach .container .quote {
+  font-family: 'proxima_nova_rgbold_italic';
+  font-size: 21px;
+  color: #d5d5d5;
+}
+#header-approach .container p {
+  font-size: 18px;
+  color: #d5d5d5;
+  margin-top: 30px;
+}
+#header-approach .container p .reg {
+  font-family: 'proxima_nova_rgregular';
+}
+#header-approach .container p .sem {
+  font-family: 'proxima_novasemibold';
+}
+#gamingIntro {
+  margin-bottom: 55px;
+  background-color: #f6f8fa;
+  padding: 55px 0 60px;
+}
+#gamingIntro .text {
+  font-family: 'proxima_nova_rgregular';
+}
+#gamingIntro .text .title {
+  display: inline-block;
+  font-size: 30px;
+  color: #645246;
+  margin-bottom: 45px;
+  margin-top: 35px;
+}
+#gamingIntro .text .body {
+  font-size: 18px;
+  color: #929292;
+}
+#gamingIntro .video {
+  text-align: right;
+}
+#gamingIntro .video img {
+  width: 100%;
+}
+#content {
+  /*background: url('../images/contactus.jpg') no-repeat 50% 100%;*/
+  background: url("../images/contacus.jpg") no-repeat 50% 100%;
+  background-size: 100%;
+  padding-bottom: 162px;
+}
+#content .row {
+  padding: 0;
+}
+#content .our-content {
+  border-bottom: 2px solid #ebebeb;
+  padding: 40px 0;
+}
+#content .our-content:last-child {
+  border-bottom: none;
+}
+#content .our-content h3 {
+  color: #645246;
+  font-family: 'proxima_nova_rgregular';
+  font-size: 30px;
+  margin-bottom: 33px;
+}
+#content .our-content p {
+  color: #929292;
+  font-size: 18px;
+  font-family: 'proxima_nova_rgregular';
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+#content .form {
+  margin-bottom: 30px;
+}
+#content .form form {
+  background-color: #363b47;
+  padding: 0;
+  border-radius: 5px;
+  float: none;
+  display: inline-block;
+}
+#content .form form .talk-to {
+  background-color: #4e535f;
+  padding: 20px 20px 15px;
+  background-position: 20px 50%;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 20px;
+}
+#content .form form .talk-to span {
+  margin-left: 80px;
+  color: #fff;
+}
+#content .form form .talk-to .phone {
+  font-family: 'proxima_novaextrabold';
+}
+#content .form form .form-group {
+  margin-bottom: 10px;
+}
+#content .form form input {
+  height: 50px;
+  font-family: 'proxima_novasemibold';
+  font-size: 16px;
+  background-color: #5e626c;
+  border-color: #5e626c;
+  color: #fff;
+}
+#content .form form textarea {
+  font-family: 'proxima_novasemibold';
+  font-size: 16px;
+  background-color: #5e626c;
+  border-color: #5e626c;
+  color: #fff;
+}
+#content .form form .submit {
+  background-color: #f89945;
+  width: 140px;
+  border: none;
+  border-radius: 40px;
+  text-transform: uppercase;
+  height: 40px;
+}
+#content .form form .submit:hover {
+  background-color: #FCB373;
+}
+#content .book {
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  padding: 25px;
+  font-family: 'proxima_nova_rgregular';
+  background: rgba(255, 255, 255, 0);
+  background: -moz-linear-gradient(90deg, rgba(255, 255, 255, 0) 61%, #f3f3f3 92%);
+  background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0) 61%, #f3f3f3 92%);
+  background: -o-linear-gradient(90deg, rgba(255, 255, 255, 0) 61%, #f3f3f3 92%);
+  background: -ms-linear-gradient(90deg, rgba(255, 255, 255, 0) 61%, #f3f3f3 92%);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 61%, #f3f3f3 92%);
+}
+#content .book .title {
+  font-size: 24px;
+  color: #645246;
+  /*margin-bottom: 25px;*/
+  padding-left: 5px;
+}
+#content .book .text {
+  color: #929292;
+  font-size: 16px;
+  line-height: 25px;
+  padding-left: 20px;
+}
+#content .book .book-down {
+  /*margin-top: 10px;*/
+  width: 140px;
+  padding: 20px;
+  background-color: #dc645f;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: #fff;
+  font-family: 'proxima_novasemibold';
+  text-transform: uppercase;
+  display: block;
+}
+#content .book .book-down:hover {
+  text-decoration: none;
+  background-color: #e89692;
+}
+#content .book form .form-group div {
+  margin-bottom: 10px;
+}
+#content .book form .form-group div .form-control:-ms-input-placeholder {
+  color: #929292;
+}
+#content .book form .form-group div .form-control::-webkit-input-placeholder {
+  color: #929292;
+}
+#content .book form .form-group div .form-control::-ms-input-placeholder {
+  color: #929292;
+}
+#content .book form .form-group div .form-control:-moz-placeholder {
+  color: #929292;
+  opacity: 1;
+}
+#content .book form .form-group div .form-control::-moz-placeholder {
+  color: #929292;
+  opacity: 1;
+}
+@media (max-width: 480px) {
+  #header h1 {
+    margin-top: 20px !important;
+  }
+}
+@media (max-width: 768px) {
+  #gamingIntro .video {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #gamingIntro .text {
+    text-align: center;
+  }
+  .big-icon .row {
+    margin-bottom: 0 !important;
+  }
+  .big-icon .row .wrap {
+    margin-bottom: 30px !important;
+  }
+  .book-img {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+.approach-top-block p {
+  font-size: 1.13em;
+  color: #929292;
+  line-height: 1.67em;
+  font-family: 'proxima_nova_rgregular';
+  text-align: center;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .big-icon .col-sm-12 {
+    margin-top: 30px !important;
+  }
+  .book-img {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  #gamingIntro .video {
+    text-align: center;
+    margin-top: 30px;
+  }
+  #gamingIntro .text {
+    text-align: center;
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  .book-img img {
+    width: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .big-icon .wrap.wrap-4 {
+    float: right;
+  }
+  .big-icon .wrap.wrap-5 {
+    float: left;
+  }
+}
+@media (min-width: 601px) and (max-width: 990px) {
+  #header-approach {
+    height: 400px !important;
+    margin-bottom: 0 !important;
+  }
+  #header-approach .container h1 {
+    font-size: 68px !important;
+    padding: 21% 0 !important;
+  }
+}
+@media (min-width: 517px) and (max-width: 600px) {
+  #header-approach {
+    height: 400px !important;
+    margin-bottom: 0 !important;
+  }
+  #header-approach .container h1 {
+    font-size: 52px !important;
+    padding: 32% 0 !important;
+  }
+}
+@media (min-width: 400px) and (max-width: 516px) {
+  #header-approach {
+    height: 293px !important;
+    margin-bottom: 0 !important;
+  }
+  #header-approach .container h1 {
+    font-size: 45px !important;
+    padding: 30% 0 !important;
+  }
+}
+@media (max-width: 399px) {
+  #header-approach {
+    height: 255px !important;
+    margin-bottom: 0 !important;
+  }
+  #header-approach .container h1 {
+    font-size: 34px !important;
+    padding: 26% 0 !important;
+  }
+}

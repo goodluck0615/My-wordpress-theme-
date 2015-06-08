@@ -1,0 +1,96 @@
+.video-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: relative;
+  overflow: hidden;
+  min-height: 7.28%;
+  padding-top: 8.1%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.video-container video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background: url(/videos/bck.jpg) no-repeat;
+  background-size: cover;
+}
+.video-container h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'proxima_novasemibold';
+  font-size: 45px;
+  margin-bottom: 3%;
+}
+.video-container h1 .font-light {
+  font-family: 'proxima_novalight';
+}
+.video-container .we-know {
+  text-align: center;
+  color: #fff;
+  font-family: 'proxima_nova_rgregular';
+  font-size: 21px;
+  margin-bottom: 5.1%;
+}
+.video-container .watch-video {
+  display: block;
+  color: #b3b3b3;
+  font-family: 'proxima_novaregular_italic';
+  border-bottom: 1px dotted #b3b3b3;
+  width: 106px;
+  text-align: center;
+  margin: 0 auto;
+}
+.video-container .watch-video:hover {
+  text-decoration: none;
+  opacity: .7;
+  -webkit-transition: opacity .25s;
+  -moz-transition: opacity .25s;
+  -ms-transition: opacity .25s;
+  -o-transition: opacity .25s;
+  transition: opacity .25s;
+}
+.video-container .watch-video .icon-watch {
+  display: block;
+  background: url(../images/watch-video-icon.png) center 0 no-repeat;
+  height: 79px;
+  width: 79px;
+  margin: 0 auto 20px;
+}
+.video-container .talk-btn {
+  border-radius: 20px;
+  padding: 15px 30px;
+  width: 206px;
+  background-color: #dc645f;
+  color: #fff;
+  font-family: 'proxima_novasemibold';
+  text-transform: uppercase;
+  margin: 6.8% auto 8.9%;
+  display: block;
+}
+.video-container .talk-btn:hover {
+  background-color: #e89692;
+  text-decoration: none;
+  -webkit-transition: background-color 0.25s;
+  -moz-transition: background-color 0.25s;
+  -ms-transition: background-color 0.25s;
+  -o-transition: background-color 0.25s;
+  transition: background-color 0.25s;
+}
+.video-container .down {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+}
+.video-container .down:hover {
+  color: #aaaaaa;
+}

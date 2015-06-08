@@ -1,0 +1,1139 @@
+.approach-tab-block {
+  min-height: 792px;
+  background-color: #363b47;
+  position: relative;
+}
+.approach-block {
+  padding: 40px 0;
+}
+.approach-block .etabs {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  border-bottom: 3px solid #9ca2af;
+  text-align: center;
+}
+.approach-block .etabs li.tab {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: -3px;
+}
+.approach-block .etabs li.tab:hover {
+  border-bottom: 3px solid #f89945;
+}
+.approach-block .etabs li.tab a {
+  display: block;
+  width: 186px;
+  height: 160px;
+  text-align: center;
+  font-family: 'proxima_novasemibold';
+  font-size: 15px;
+  color: #9ca2af;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-top: 74px;
+  border-bottom: 2px solid #363b47;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.approach-block .etabs li.tab a:focus {
+  text-decoration: none;
+}
+.approach-block .etabs li.tab a:hover {
+  color: #f89945;
+  border-bottom: 2px solid #f89945;
+}
+.approach-block .etabs li.tab .tab-icon-1 {
+  background: url(../images/tabs-icon.png) 67px 0 no-repeat;
+}
+.approach-block .etabs li.tab .tab-icon-1:hover {
+  background-position: 67px -158px;
+}
+.approach-block .etabs li.tab .tab-icon-2 {
+  background: url(../images/tabs-icon.png) -167px 0 no-repeat;
+}
+.approach-block .etabs li.tab .tab-icon-2:hover {
+  background-position: -167px -158px;
+}
+.approach-block .etabs li.tab .tab-icon-3 {
+  background: url(../images/tabs-icon.png) -406px 0 no-repeat;
+}
+.approach-block .etabs li.tab .tab-icon-3:hover {
+  background-position: -406px -158px;
+}
+.approach-block .etabs li.active {
+  border-bottom: 3px solid #f89945;
+}
+.approach-block .etabs li.active a.active {
+  color: #f89945;
+  border-bottom: 2px solid #f89945;
+}
+.approach-block .etabs li.active .tab-icon-1 {
+  background-position: 67px -158px;
+}
+.approach-block .etabs li.active .tab-icon-2 {
+  background-position: -167px -158px;
+}
+.approach-block .etabs li.active .tab-icon-3 {
+  background-position: -406px -158px;
+}
+.approach-block .tab-content {
+  padding-top: 20px;
+}
+.approach-block .tab-content .content-block {
+  vertical-align: top;
+  margin-bottom: 45px;
+  margin-right: 30px;
+}
+.approach-block .tab-content .content-block h4 {
+  font-family: 'proxima_novasemibold';
+  font-size: 15px;
+  color: #fff;
+}
+.approach-block .tab-content .content-block p {
+  color: #9CA2AF;
+  font-family: 'proxima_nova_rgregular';
+  font-size: 15px;
+  line-height: 25px;
+}
+.bg-images {
+  position: relative;
+}
+.bg-images .bg-img {
+  width: 100%;
+  position: relative;
+  z-index: auto;
+}
+.bg-images .bg-img img {
+  position: absolute;
+  max-height: 100%;
+}
+.bg-images .content-our-app {
+  padding-left: 96px;
+  padding-top: 42px;
+  position: absolute;
+}
+.bg-images .content-our-app h2 {
+  color: #fff;
+  font-size: 60px;
+  line-height: 128px;
+  font-family: 'proxima_novasemibold';
+  margin-bottom: 30px;
+}
+.bg-images .content-our-app h2 span {
+  font-family: 'proxima_novalight';
+  border-bottom: 3px solid #fff;
+  height: 142px;
+  display: inline-block;
+}
+.bg-images .content-our-app p {
+  font-family: 'proxima_nova_rgregular';
+  font-size: 20px;
+  line-height: 35px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.bg-images .content-our-app .our-approach-btn {
+  border-radius: 20px;
+  background-color: #d98942;
+  text-align: center;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'proxima_novasemibold';
+  cursor: pointer;
+}
+.bg-images .content-our-app .our-approach-btn:hover {
+  background-color: #f1b882;
+  text-decoration: none;
+}
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .approach-block {
+    padding: 40px 0;
+  }
+  .approach-block .etabs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .approach-block .etabs li.tab {
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 3px solid #9ca2af;
+    margin-right: -4px;
+  }
+  .approach-block .etabs li.tab:hover {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.tab a {
+    display: block;
+    width: 98px !important;
+    height: 100px;
+    text-align: center;
+    font-family: 'proxima_novasemibold';
+    font-size: 10px;
+    color: #9ca2af;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 56px;
+    border-bottom: 2px solid #363b47;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .approach-block .etabs li.tab a:focus {
+    text-decoration: none;
+  }
+  .approach-block .etabs li.tab a:hover {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.tab .tab-icon-1 {
+    background: url(../images/tabs-icon-320.png) 29px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-1:hover {
+    background-position: 29px -116px;
+  }
+  .approach-block .etabs li.tab .tab-icon-2 {
+    background: url(../images/tabs-icon-320.png) -145px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-2:hover {
+    background-position: -145px -116px;
+  }
+  .approach-block .etabs li.tab .tab-icon-3 {
+    background: url(../images/tabs-icon-320.png) -321px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-3:hover {
+    background-position: -321px -116px;
+  }
+  .approach-block .etabs li.active {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.active a.active {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.active .tab-icon-1 {
+    background-position: 29px -116px;
+  }
+  .approach-block .etabs li.active .tab-icon-2 {
+    background-position: -145px -116px;
+  }
+  .approach-block .etabs li.active .tab-icon-3 {
+    background-position: -321px -116px;
+  }
+  .approach-block .tab-content {
+    padding-top: 20px;
+  }
+  .approach-block .tab-content .content-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .approach-block .tab-content .content-block h4 {
+    font-family: 'proxima_novasemibold';
+    font-size: 10px;
+    color: #fff;
+    margin: 0;
+  }
+  .approach-block .tab-content .content-block p {
+    color: #9CA2AF;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 10px;
+    line-height: 25px;
+  }
+  .bg-images {
+    position: relative;
+  }
+  .bg-images .bg-img {
+    width: 100%;
+    position: relative;
+  }
+  .bg-images .bg-img img {
+    position: relative;
+    left: -20px;
+    width: 111%;
+  }
+  .bg-images .content-our-app {
+    padding-left: 0;
+    padding-top: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+  }
+  .bg-images .content-our-app h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .bg-images .content-our-app h2 span {
+    font-family: 'proxima_novalight';
+    border-bottom: none;
+    height: 30px;
+    display: inline-block;
+  }
+  .bg-images .content-our-app p {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .bg-images .content-our-app .our-approach-btn {
+    border-radius: 20px;
+    background-color: #d98942;
+    text-align: center;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'proxima_novasemibold';
+    cursor: pointer;
+  }
+  .bg-images .content-our-app .our-approach-btn:hover {
+    background-color: #f1b882;
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  .approach-tab-block {
+    min-height: 792px !important;
+    background-color: #363b47;
+    position: relative;
+  }
+  .approach-block {
+    padding: 40px 0;
+  }
+  .approach-block .etabs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .approach-block .etabs li.tab {
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 3px solid #9ca2af;
+    margin-right: -4px;
+  }
+  .approach-block .etabs li.tab:hover {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.tab a {
+    display: block;
+    width: 98px !important;
+    height: 100px;
+    text-align: center;
+    font-family: 'proxima_novasemibold';
+    font-size: 10px;
+    color: #9ca2af;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 56px;
+    border-bottom: 2px solid #363b47;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .approach-block .etabs li.tab a:focus {
+    text-decoration: none;
+  }
+  .approach-block .etabs li.tab a:hover {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.tab .tab-icon-1 {
+    background: url(../images/tabs-icon-320.png) 29px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-1:hover {
+    background-position: 29px -116px;
+  }
+  .approach-block .etabs li.tab .tab-icon-2 {
+    background: url(../images/tabs-icon-320.png) -145px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-2:hover {
+    background-position: -145px -116px;
+  }
+  .approach-block .etabs li.tab .tab-icon-3 {
+    background: url(../images/tabs-icon-320.png) -321px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-3:hover {
+    background-position: -321px -116px;
+  }
+  .approach-block .etabs li.active {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.active a.active {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.active .tab-icon-1 {
+    background-position: 29px -116px;
+  }
+  .approach-block .etabs li.active .tab-icon-2 {
+    background-position: -145px -116px;
+  }
+  .approach-block .etabs li.active .tab-icon-3 {
+    background-position: -321px -116px;
+  }
+  .approach-block .tab-content {
+    padding-top: 20px;
+  }
+  .approach-block .tab-content .content-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .approach-block .tab-content .content-block h4 {
+    font-family: 'proxima_novasemibold';
+    font-size: 10px;
+    color: #fff;
+    margin: 0;
+  }
+  .approach-block .tab-content .content-block p {
+    color: #9CA2AF;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 10px;
+    line-height: 25px;
+  }
+  .bg-images {
+    position: relative;
+    background-image: url(../images/approach-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    border: 1px solid transparent;
+  }
+  .bg-images .bg-img {
+    width: 100%;
+    position: relative;
+    display: none;
+  }
+  .bg-images .bg-img img {
+    position: relative;
+    left: -20px;
+    width: 111%;
+  }
+  .bg-images .content-our-app {
+    padding-left: 0;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+    top: 0;
+    padding-bottom: 50px;
+  }
+  .bg-images .content-our-app h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .bg-images .content-our-app h2 span {
+    font-family: 'proxima_novalight';
+    border-bottom: none;
+    height: 30px;
+    display: inline-block;
+  }
+  .bg-images .content-our-app p {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .bg-images .content-our-app .our-approach-btn {
+    border-radius: 20px;
+    background-color: #d98942;
+    text-align: center;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'proxima_novasemibold';
+    cursor: pointer;
+  }
+  .bg-images .content-our-app .our-approach-btn:hover {
+    background-color: #f1b882;
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+  .approach-tab-block {
+    min-height: 792px !important;
+    background-color: #363b47;
+    position: relative;
+  }
+  .approach-block {
+    padding: 40px 0;
+  }
+  .approach-block .etabs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .approach-block .etabs li.tab {
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 3px solid #9ca2af;
+    margin-right: -4px;
+  }
+  .approach-block .etabs li.tab:hover {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.tab a {
+    display: block;
+    width: 145px !important;
+    height: 100px;
+    text-align: center;
+    font-family: 'proxima_novasemibold';
+    font-size: 10px;
+    color: #9ca2af;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 56px;
+    border-bottom: 2px solid #363b47;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .approach-block .etabs li.tab a:focus {
+    text-decoration: none;
+  }
+  .approach-block .etabs li.tab a:hover {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.tab .tab-icon-1 {
+    background: url(../images/tabs-icon-320.png) 53px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-1:hover {
+    background-position: 53px -116px;
+  }
+  .approach-block .etabs li.tab .tab-icon-2 {
+    background: url(../images/tabs-icon-320.png) -122px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-2:hover {
+    background-position: -122px -116px;
+  }
+  .approach-block .etabs li.tab .tab-icon-3 {
+    background: url(../images/tabs-icon-320.png) -294px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-3:hover {
+    background-position: -294px -116px;
+  }
+  .approach-block .etabs li.active {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.active a.active {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.active .tab-icon-1 {
+    background-position: 53px -116px;
+  }
+  .approach-block .etabs li.active .tab-icon-2 {
+    background-position: -122px -116px;
+  }
+  .approach-block .etabs li.active .tab-icon-3 {
+    background-position: -294px -116px;
+  }
+  .approach-block .tab-content {
+    padding-top: 20px;
+  }
+  .approach-block .tab-content .content-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .approach-block .tab-content .content-block h4 {
+    font-family: 'proxima_novasemibold';
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+  }
+  .approach-block .tab-content .content-block p {
+    color: #9CA2AF;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .bg-images {
+    position: relative;
+    border: 1px solid transparent;
+    background-image: url(../images/approach-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+  }
+  .bg-images .bg-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+  }
+  .bg-images .bg-img img {
+    position: relative;
+    left: -20px;
+    width: 111%;
+  }
+  .bg-images .content-our-app {
+    padding-left: 0;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+    top: 0;
+    padding-bottom: 50px;
+  }
+  .bg-images .content-our-app h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .bg-images .content-our-app h2 span {
+    font-family: 'proxima_novalight';
+    border-bottom: none;
+    height: 30px;
+    display: inline-block;
+  }
+  .bg-images .content-our-app p {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .bg-images .content-our-app .our-approach-btn {
+    border-radius: 20px;
+    background-color: #d98942;
+    text-align: center;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'proxima_novasemibold';
+    cursor: pointer;
+  }
+  .bg-images .content-our-app .our-approach-btn:hover {
+    background-color: #f1b882;
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+  .approach-tab-block {
+    min-height: 792px !important;
+    background-color: #363b47;
+    position: relative;
+  }
+  .approach-block {
+    padding: 40px 0;
+  }
+  .approach-block .etabs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .approach-block .etabs li.tab {
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 3px solid #9ca2af;
+    margin-right: -4px;
+  }
+  .approach-block .etabs li.tab:hover {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.tab a {
+    display: block;
+    width: 200px !important;
+    height: 100px;
+    text-align: center;
+    font-family: 'proxima_novasemibold';
+    font-size: 10px;
+    color: #9ca2af;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 56px;
+    border-bottom: 2px solid #363b47;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .approach-block .etabs li.tab a:focus {
+    text-decoration: none;
+  }
+  .approach-block .etabs li.tab a:hover {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.tab .tab-icon-1 {
+    background: url(../images/tabs-icon-320.png) 79px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-1:hover {
+    background-position: 79px -116px;
+  }
+  .approach-block .etabs li.tab .tab-icon-2 {
+    background: url(../images/tabs-icon-320.png) -96px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-2:hover {
+    background-position: -96px -116px;
+  }
+  .approach-block .etabs li.tab .tab-icon-3 {
+    background: url(../images/tabs-icon-320.png) -271px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-3:hover {
+    background-position: -271px -116px;
+  }
+  .approach-block .etabs li.active {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.active a.active {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.active .tab-icon-1 {
+    background-position: 79px -116px;
+  }
+  .approach-block .etabs li.active .tab-icon-2 {
+    background-position: -96px -116px;
+  }
+  .approach-block .etabs li.active .tab-icon-3 {
+    background-position: -271px -116px;
+  }
+  .approach-block .tab-content {
+    padding-top: 20px;
+  }
+  .approach-block .tab-content .content-block {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+  .approach-block .tab-content .content-block h4 {
+    font-family: 'proxima_novasemibold';
+    font-size: 15px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+  }
+  .approach-block .tab-content .content-block p {
+    color: #9CA2AF;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .bg-images {
+    position: relative;
+    background-image: url(../images/approach-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    border: 1px solid transparent;
+  }
+  .bg-images .bg-img {
+    width: 100%;
+    position: relative;
+    display: none;
+  }
+  .bg-images .bg-img img {
+    position: relative;
+    left: -20px;
+    width: 111%;
+  }
+  .bg-images .content-our-app {
+    padding-left: 0;
+    padding-top: 0;
+    position: relative;
+    text-align: center;
+    top: 0;
+  }
+  .bg-images .content-our-app h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .bg-images .content-our-app h2 span {
+    font-family: 'proxima_novalight';
+    border-bottom: none;
+    height: 30px;
+    display: inline-block;
+  }
+  .bg-images .content-our-app p {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .bg-images .content-our-app .our-approach-btn {
+    border-radius: 20px;
+    background-color: #d98942;
+    text-align: center;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'proxima_novasemibold';
+    cursor: pointer;
+  }
+  .bg-images .content-our-app .our-approach-btn:hover {
+    background-color: #f1b882;
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .approach-tab-block {
+    min-height: 792px;
+    background-color: #363b47;
+    position: relative;
+  }
+  .approach-block {
+    padding: 40px 0;
+  }
+  .approach-block .etabs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .approach-block .etabs li.tab {
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 3px solid #9ca2af;
+    margin-right: -4px;
+  }
+  .approach-block .etabs li.tab:hover {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.tab a {
+    display: block;
+    width: 186px;
+    height: 160px;
+    text-align: center;
+    font-family: 'proxima_novasemibold';
+    font-size: 15px;
+    color: #9ca2af;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 74px;
+    border-bottom: 2px solid #363b47;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .approach-block .etabs li.tab a:focus {
+    text-decoration: none;
+  }
+  .approach-block .etabs li.tab a:hover {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.tab .tab-icon-1 {
+    background: url(../images/tabs-icon.png) 67px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-1:hover {
+    background-position: 67px -158px;
+  }
+  .approach-block .etabs li.tab .tab-icon-2 {
+    background: url(../images/tabs-icon.png) -167px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-2:hover {
+    background-position: -167px -158px;
+  }
+  .approach-block .etabs li.tab .tab-icon-3 {
+    background: url(../images/tabs-icon.png) -406px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-3:hover {
+    background-position: -406px -158px;
+  }
+  .approach-block .etabs li.active {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.active a.active {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.active .tab-icon-1 {
+    background-position: 67px -158px;
+  }
+  .approach-block .etabs li.active .tab-icon-2 {
+    background-position: -167px -158px;
+  }
+  .approach-block .etabs li.active .tab-icon-3 {
+    background-position: -406px -158px;
+  }
+  .approach-block .tab-content {
+    padding-top: 20px;
+  }
+  .approach-block .tab-content .content-block {
+    margin-bottom: 45px;
+    margin-right: 30px;
+  }
+  .approach-block .tab-content .content-block h4 {
+    font-family: 'proxima_novasemibold';
+    font-size: 15px;
+    color: #fff;
+  }
+  .approach-block .tab-content .content-block p {
+    color: #9CA2AF;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .bg-images {
+    position: relative;
+  }
+  .bg-images .bg-img {
+    width: 100%;
+    position: relative;
+    height: 100%;
+  }
+  .bg-images .bg-img img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  .bg-images .content-our-app {
+    padding-left: 0;
+    padding-top: 42px;
+    position: relative;
+    padding-bottom: 50px;
+    left: 0;
+  }
+  .bg-images .content-our-app h2 {
+    color: #fff;
+    font-size: 60px;
+    line-height: 128px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .bg-images .content-our-app h2 span {
+    font-family: 'proxima_novalight';
+    height: 142px;
+    display: inline-block;
+  }
+  .bg-images .content-our-app p {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 20px;
+    line-height: 35px;
+    color: #fff;
+    width: 100%;
+    margin: 0 auto 50px;
+  }
+  .bg-images .content-our-app .our-approach-btn {
+    border-radius: 20px;
+    background-color: #d98942;
+    text-align: center;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'proxima_novasemibold';
+    cursor: pointer;
+  }
+  .bg-images .content-our-app .our-approach-btn:hover {
+    background-color: #f1b882;
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  .bg-images {
+    position: relative;
+  }
+  .bg-images .bg-img {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .approach-tab-block {
+    min-height: 550px;
+    background-color: #363b47;
+    position: relative;
+  }
+  .approach-block {
+    padding: 40px 0;
+  }
+  .approach-block .etabs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .approach-block .etabs li.tab {
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: 3px solid #9ca2af;
+    margin-right: -4px;
+  }
+  .approach-block .etabs li.tab:hover {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.tab a {
+    display: block;
+    width: 179px;
+    height: 160px;
+    text-align: center;
+    font-family: 'proxima_novasemibold';
+    font-size: 15px;
+    color: #9ca2af;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 74px;
+    border-bottom: 2px solid #363b47;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .approach-block .etabs li.tab a:focus {
+    text-decoration: none;
+  }
+  .approach-block .etabs li.tab a:hover {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.tab .tab-icon-1 {
+    background: url(../images/tabs-icon.png) 67px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-1:hover {
+    background-position: 67px -158px;
+  }
+  .approach-block .etabs li.tab .tab-icon-2 {
+    background: url(../images/tabs-icon.png) -167px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-2:hover {
+    background-position: -167px -158px;
+  }
+  .approach-block .etabs li.tab .tab-icon-3 {
+    background: url(../images/tabs-icon.png) -406px 0 no-repeat;
+  }
+  .approach-block .etabs li.tab .tab-icon-3:hover {
+    background-position: -406px -158px;
+  }
+  .approach-block .etabs li.active {
+    border-bottom: 3px solid #f89945;
+  }
+  .approach-block .etabs li.active a.active {
+    color: #f89945;
+    border-bottom: 2px solid #f89945;
+  }
+  .approach-block .etabs li.active .tab-icon-1 {
+    background-position: 67px -158px;
+  }
+  .approach-block .etabs li.active .tab-icon-2 {
+    background-position: -167px -158px;
+  }
+  .approach-block .etabs li.active .tab-icon-3 {
+    background-position: -406px -158px;
+  }
+  .approach-block .tab-content {
+    padding-top: 20px;
+  }
+  .approach-block .tab-content .content-block {
+    margin-bottom: 45px;
+    margin-right: 30px;
+  }
+  .approach-block .tab-content .content-block h4 {
+    font-family: 'proxima_novasemibold';
+    font-size: 15px;
+    color: #fff;
+  }
+  .approach-block .tab-content .content-block p {
+    color: #9CA2AF;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .bg-images {
+    position: relative;
+  }
+  .bg-images .bg-img {
+    width: 100%;
+    position: relative;
+  }
+  .bg-images .bg-img img {
+    position: relative;
+    height: 100%;
+  }
+  .bg-images .content-our-app {
+    padding-left: 0;
+    padding-top: 42px;
+    position: absolute;
+    top: 0;
+  }
+  .bg-images .content-our-app h2 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 128px;
+    font-family: 'proxima_novasemibold';
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .bg-images .content-our-app h2 span {
+    font-family: 'proxima_novalight';
+    height: 142px;
+    display: inline-block;
+  }
+  .bg-images .content-our-app p {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+    width: 75%;
+    margin: 0 auto 50px;
+  }
+  .bg-images .content-our-app .our-approach-btn {
+    border-radius: 20px;
+    background-color: #d98942;
+    text-align: center;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'proxima_novasemibold';
+    cursor: pointer;
+    margin-left: 48px;
+  }
+  .bg-images .content-our-app .our-approach-btn:hover {
+    background-color: #f1b882;
+    text-decoration: none;
+  }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .approach-tab-block .tab a {
+    width: 175px !important;
+  }
+}
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .approach-tab-block {
+    min-height: 100px !important;
+  }
+  .approach-tab-block .col-md-7 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .approach-tab-block {
+    min-height: 100px !important;
+  }
+  .approach-tab-block .col-md-7 {
+    display: none;
+  }
+}

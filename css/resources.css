@@ -1,0 +1,242 @@
+.red-btn {
+  border-radius: 20px;
+  height: 40px;
+  font-family: 'proxima_novasemibold';
+  text-transform: uppercase;
+  background-color: #dc645f;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 30px;
+}
+.red-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #e89692;
+}
+.orange-btn {
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  line-height: 41px;
+  height: 41px;
+  width: 173px;
+  background-color: #f99b43;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.orange-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f1b882;
+}
+.page-title {
+  background: url(../images/resourse-bg.jpg) 0 0 repeat-x;
+}
+.page-title h1 {
+  padding: 9% 0;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: 'proxima_nova_rgbold';
+}
+.top-big-dowload {
+  background-color: #f6f8fa;
+  min-height: 485px;
+  padding: 70px 0;
+  margin-bottom: 148px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.top-big-dowload h2 {
+  font-family: 'proxima_nova_rgregular';
+  font-size: 30px;
+  color: #645246;
+  margin-bottom: 40px;
+}
+.top-big-dowload p {
+  font-family: 'proxima_nova_rgregular';
+  font-size: 18px;
+  color: #645246;
+  line-height: 31px;
+  margin-bottom: 40px;
+}
+.top-big-dowload .big-book {
+  position: relative;
+}
+.top-big-dowload .big-book:after {
+  content: '';
+  background: url(../images/ceo-book-big.png) 0 0 no-repeat;
+  display: block;
+  width: 140%;
+  height: 308%;
+  position: absolute;
+  right: -173%;
+  top: -8%;
+}
+.top-big-dowload .form-control:-ms-input-placeholder {
+  color: #929292;
+}
+.top-big-dowload .form-control::-webkit-input-placeholder {
+  color: #929292;
+}
+.top-big-dowload .form-control::-ms-input-placeholder {
+  color: #929292;
+}
+.top-big-dowload .form-control:-moz-placeholder {
+  color: #929292;
+  opacity: 1;
+}
+.top-big-dowload .form-control::-moz-placeholder {
+  color: #929292;
+  opacity: 1;
+}
+.book-section .book-section-pay {
+  border-bottom: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  border-left: 1px solid #ebebeb;
+  /*        &:nth-child(3n) {
+                    border-right: none;
+                }*/
+}
+.book-section .book-section-pay form .form-group div {
+  margin-bottom: 15px;
+}
+.book-section .book-box {
+  /*padding: 54px 0;*/
+}
+.book-section .book-box .book-content {
+  margin-bottom: 30px;
+}
+.book-section .book-box img {
+  display: block;
+  margin: 0 auto 21px;
+}
+.book-section .book-box p {
+  font-size: 15px;
+  font-family: 'proxima_nova_rgregular';
+  text-align: center;
+  margin-bottom: 40px;
+}
+.book-section .book-box .form-control:-ms-input-placeholder {
+  color: #929292;
+}
+.book-section .book-box .form-control::-webkit-input-placeholder {
+  color: #929292;
+}
+.book-section .book-box .form-control::-ms-input-placeholder {
+  color: #929292;
+}
+.book-section .book-box .form-control:-moz-placeholder {
+  color: #929292;
+  opacity: 1;
+}
+.book-section .book-box .form-control::-moz-placeholder {
+  color: #929292;
+  opacity: 1;
+}
+.book-section .comming-soon img {
+  opacity: .3;
+}
+.book-section .comming-soon form {
+  visibility: hidden;
+}
+.bottom-bg {
+  position: relative;
+}
+.bottom-bg:before {
+  content: '';
+  background: url(../images/contacus.jpg) 0 0 repeat-x;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -851px;
+  height: 851px;
+  z-index: -10;
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .page-title h1 {
+    font-size: 40px;
+    padding: 0;
+    padding: 44% 0;
+    height: 269px;
+  }
+  .top-big-dowload {
+    text-align: center;
+    margin-bottom: 13%;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .top-big-dowload {
+    min-height: 780px;
+  }
+  .top-big-dowload .big-book {
+    position: relative;
+  }
+  .top-big-dowload .big-book:after {
+    content: '';
+    background: url(../images/ceo-book-big.png) 0 0 no-repeat;
+    display: block;
+    width: 140%;
+    height: 225%;
+    position: absolute;
+    right: -49%;
+    top: 117%;
+    background-size: 120%;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 480px) {
+  .top-big-dowload {
+    min-height: 892px;
+  }
+  .top-big-dowload .big-book {
+    position: relative;
+  }
+  .top-big-dowload .big-book:after {
+    content: '';
+    background: url(../images/ceo-book-big.png) 0 0 no-repeat;
+    display: block;
+    width: 140%;
+    height: 225%;
+    position: absolute;
+    right: -49%;
+    top: 117%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .top-big-dowload .big-book {
+    position: relative;
+  }
+  .top-big-dowload .big-book:after {
+    content: '';
+    background: url(../images/ceo-book-big.png) 0 0 no-repeat;
+    display: block;
+    width: 140%;
+    height: 225%;
+    position: absolute;
+    right: -155%;
+    top: -8%;
+  }
+}
+@media only screen and (min-width: 479px) and (max-width: 767px) {
+  .top-big-dowload {
+    min-height: 796px;
+  }
+  .top-big-dowload .big-book {
+    position: relative;
+  }
+  .top-big-dowload .big-book:after {
+    content: '';
+    background: url(../images/ceo-book-big.png) 0 0 no-repeat;
+    display: block;
+    width: 140%;
+    height: 225%;
+    position: absolute;
+    right: -58%;
+    top: 117%;
+  }
+}

@@ -1,0 +1,1169 @@
+* a:focus {
+  text-decoration: none;
+  outline: none;
+}
+.contactus {
+  position: relative;
+  padding: 55px 0 60px;
+}
+.contactus img {
+  bottom: 0;
+  display: block;
+  min-width: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.contactus .contactus-box .contactus-title {
+  /*position: relative;*/
+}
+.contactus .contactus-box .slogan {
+  font-family: 'proxima_nova_rgregular';
+  font-size: 21px;
+  color: #929292;
+  margin: 0;
+  /*position: relative;*/
+}
+.contactus .contactus-box .contactform {
+  padding-top: 92px;
+  padding-bottom: 118px;
+}
+.contactus .contactus-box .contactform form {
+  position: relative;
+  z-index: 1;
+}
+.contactus .contactus-box .contactform #contact-form .form-group {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 0;
+}
+.contactus .contactus-box .contactform #contact-form .form-group input,
+.contactus .contactus-box .contactform #contact-form .form-group textarea {
+  background-color: rgba(37, 45, 64, 0.6);
+  border: 0 none;
+  color: #ffffff;
+  font-family: 'proxima_nova_rgregular';
+  font-size: 16px;
+  padding: 15px 21px;
+  resize: none;
+}
+.contactus .contactus-box .contactform #contact-form .form-group input:hover,
+.contactus .contactus-box .contactform #contact-form .form-group textarea:hover {
+  cursor: pointer;
+}
+.contactus .contactus-box .contactform #contact-form .form-group input {
+  height: 54px;
+}
+.contactus .contactus-box .contactform #contact-form .form-group textarea {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.contactus .contactus-box .contactform #contact-form .bottom-contact-btn {
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 13px 45px;
+  margin-top: 5px;
+  background-color: #f99c44;
+  font-size: 15px;
+  font-family: 'proxima_novasemibold';
+  text-transform: uppercase;
+}
+.contactus .contactus-box .contactform #contact-form .bottom-contact-btn:hover,
+.contactus .contactus-box .contactform #contact-form .bottom-contact-btn:active,
+.contactus .contactus-box .contactform #contact-form .bottom-contact-btn:focus {
+  background-color: #f1b882;
+  color: #ffffff;
+  text-decoration: none;
+}
+.contactus .contactus-box .contactform #contact-form .form-btn-box {
+  background-color: rgba(37, 45, 64, 0.7);
+  border: medium none;
+  border-radius: 0 0 4px 4px;
+  padding: 22px;
+}
+.contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file {
+  color: #ffffff;
+  display: block;
+  float: left;
+  text-transform: uppercase;
+  font-family: 'proxima_novasemibold';
+}
+.contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file .up-file {
+  background: url("../images/upload-file.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+  display: block;
+  float: left;
+  height: 21px;
+  margin-right: 13px;
+  width: 21px;
+}
+.contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file:hover {
+  text-decoration: none;
+}
+.contactus .contactus-box .contactform #contact-form .form-text-input {
+  position: relative;
+}
+.contactus .contactus-box .contactform .contactus-phone {
+  color: #645246;
+  font-family: 'proxima_novalight';
+  font-size: 40px;
+}
+.contactus .contactus-box .contactform .schedule-box {
+  padding: 20px 0 60px 15px;
+}
+.contactus .contactus-box .contactform .schedule-box .schedule-call {
+  background-color: #dc645f;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'proxima_novasemibold';
+  margin-top: 5px;
+  padding: 11px 25px;
+  text-transform: uppercase;
+}
+.contactus .contactus-box .contactform .schedule-box .schedule-call:hover {
+  text-decoration: none;
+  background-color: #e89692;
+}
+.contactus .contactus-box .contactform .map-box {
+  color: #dc645f;
+  padding: 0;
+  margin-top: 13px;
+}
+.contactus .contactus-box .contactform .map-box a {
+  color: #dc645f;
+  font-size: 18px;
+  font-family: 'proxima_novasemibold';
+}
+.contactus .contactus-box .contactform .map-box a:hover {
+  text-decoration: none;
+}
+.contactus .contactus-box .contactform i {
+  font-size: 19px;
+  margin-right: 11px;
+}
+.contactus .contactus-box .contactform .contact-info {
+  color: #645246;
+  font-size: 18px;
+  font-family: 'proxima_nova_rgregular';
+}
+.contactus .contactus-box .contactform .contact-info ul {
+  padding: 0;
+}
+.contactus .contactus-box .contactform .contact-info ul li {
+  list-style-type: none;
+}
+.contactus .contactus-box .contactform .contact-info ul li span {
+  padding: 0;
+  margin-bottom: 18px;
+}
+.contactus .contactus-box .contactform .contact-info ul li span i {
+  margin-right: 17px;
+}
+.contactus .contactus-box .contactform .contact-info ul li .contact-info-title {
+  color: #645246;
+  font-family: 'proxima_novasemibold';
+}
+.fa-map-marker {
+  margin-left: 5px;
+}
+.fa-skype {
+  margin-left: 2px;
+}
+.fa-compass {
+  margin-left: 3px;
+}
+.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.form-control::-ms-input-placeholder {
+  color: #ffffff;
+}
+.form-control:-moz-placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+.form-control::-moz-placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .contactus {
+    position: relative;
+  }
+  .contactus img {
+    bottom: 0;
+    display: block;
+    min-width: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  .contactus .contactus-box .contactus-title p span {
+    font-size: 30px;
+  }
+  .contactus .contactus-box .slogan {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    color: #929292;
+    margin: 0;
+    /*position: relative;*/
+  }
+  .contactus .contactus-box .contactform {
+    padding-top: 40px;
+    padding-bottom: 118px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input,
+  .contactus .contactus-box .contactform #contact-form .form-group textarea {
+    background-color: rgba(37, 45, 64, 0.6);
+    border: 0 none;
+    color: #ffffff;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    padding: 15px 21px;
+    resize: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input:hover,
+  .contactus .contactus-box .contactform #contact-form .form-group textarea:hover {
+    cursor: pointer;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input {
+    height: 54px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group textarea {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn {
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 13px 45px;
+    margin-top: 5px;
+    background-color: #f99c44;
+    font-size: 15px;
+    font-family: 'proxima_novasemibold';
+    text-transform: uppercase;
+  }
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:hover,
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:active,
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:focus {
+    background-color: #f1b882;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box {
+    background-color: rgba(37, 45, 64, 0.7);
+    border: medium none;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    position: relative;
+    padding-top: 60px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file {
+    color: #ffffff;
+    display: block;
+    float: none;
+    text-transform: uppercase;
+    font-family: 'proxima_novasemibold';
+    font-size: 15px;
+    margin-bottom: 0;
+    position: absolute;
+    left: 30%;
+    top: 10px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file .up-file {
+    background: url("../images/upload-file.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 21px;
+    margin-right: 13px;
+    width: 21px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file:hover {
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-text-input {
+    position: relative;
+  }
+  .contactus .contactus-box .contactform .contactus-phone {
+    color: #645246;
+    font-family: 'proxima_novalight';
+    font-size: 40px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform .schedule-box {
+    padding: 20px 0 20px 15px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform .schedule-box .schedule-call {
+    background-color: #dc645f;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'proxima_novasemibold';
+    margin-top: 5px;
+    padding: 11px 25px;
+    text-transform: uppercase;
+  }
+  .contactus .contactus-box .contactform .schedule-box .schedule-call:hover {
+    text-decoration: none;
+    background-color: #e89692;
+  }
+  .contactus .contactus-box .contactform .map-box {
+    color: #dc645f;
+    padding: 0;
+    margin-top: 13px;
+  }
+  .contactus .contactus-box .contactform .map-box a {
+    color: #dc645f;
+    font-size: 18px;
+    font-family: 'proxima_novasemibold';
+  }
+  .contactus .contactus-box .contactform .map-box a:hover {
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform i {
+    font-size: 19px;
+    margin-right: 11px;
+  }
+  .contactus .contactus-box .contactform .contact-info {
+    color: #645246;
+    font-size: 18px;
+    font-family: 'proxima_nova_rgregular';
+  }
+  .contactus .contactus-box .contactform .contact-info ul {
+    padding: 0;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li {
+    list-style-type: none;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li span {
+    padding: 0;
+    margin-bottom: 15px;
+    display: block;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li span i {
+    margin-right: 15px;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li .contact-info-title {
+    color: #645246;
+    font-family: 'proxima_novasemibold';
+  }
+  .contactus .contact-info-block {
+    float: none !important;
+  }
+  .fa-map-marker {
+    margin-left: 5px;
+  }
+  .fa-skype {
+    margin-left: 2px;
+  }
+  .fa-compass {
+    margin-left: 3px;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control::-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control:-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+  .form-control::-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 480px) {
+  .contactus {
+    position: relative;
+  }
+  .contactus img {
+    bottom: 0;
+    display: block;
+    min-width: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  .contactus .contactus-box .contactus-title p span {
+    font-size: 30px;
+  }
+  .contactus .contactus-box .slogan {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    color: #929292;
+    margin: 0;
+    /*position: relative;*/
+  }
+  .contactus .contactus-box .contactform {
+    padding-top: 40px;
+    padding-bottom: 118px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input,
+  .contactus .contactus-box .contactform #contact-form .form-group textarea {
+    background-color: rgba(37, 45, 64, 0.6);
+    border: 0 none;
+    color: #ffffff;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    padding: 15px 21px;
+    resize: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input:hover,
+  .contactus .contactus-box .contactform #contact-form .form-group textarea:hover {
+    cursor: pointer;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input {
+    height: 54px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group textarea {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn {
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 13px 45px;
+    margin-top: 5px;
+    background-color: #f99c44;
+    font-size: 15px;
+    font-family: 'proxima_novasemibold';
+    text-transform: uppercase;
+  }
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:hover,
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:active,
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:focus {
+    background-color: #f1b882;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box {
+    background-color: rgba(37, 45, 64, 0.7);
+    border: medium none;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    position: relative;
+    padding-top: 60px !important;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file {
+    color: #ffffff;
+    display: block;
+    float: none;
+    text-transform: uppercase;
+    font-family: 'proxima_novasemibold';
+    font-size: 15px;
+    margin-bottom: 0;
+    position: absolute;
+    left: 32%;
+    top: 10px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file .up-file {
+    background: url("../images/upload-file.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 21px;
+    margin-right: 13px;
+    width: 21px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file:hover {
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-text-input {
+    position: relative;
+  }
+  .contactus .contactus-box .contactform .contactus-phone {
+    color: #645246;
+    font-family: 'proxima_novalight';
+    font-size: 40px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform .schedule-box {
+    padding: 20px 0 20px 15px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform .schedule-box .schedule-call {
+    background-color: #dc645f;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'proxima_novasemibold';
+    margin-top: 5px;
+    padding: 11px 25px;
+    text-transform: uppercase;
+  }
+  .contactus .contactus-box .contactform .schedule-box .schedule-call:hover {
+    text-decoration: none;
+    background-color: #e89692;
+  }
+  .contactus .contactus-box .contactform .map-box {
+    color: #dc645f;
+    padding: 0;
+    margin-top: 13px;
+  }
+  .contactus .contactus-box .contactform .map-box a {
+    color: #dc645f;
+    font-size: 18px;
+    font-family: 'proxima_novasemibold';
+  }
+  .contactus .contactus-box .contactform .map-box a:hover {
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform i {
+    font-size: 19px;
+    margin-right: 11px;
+  }
+  .contactus .contactus-box .contactform .contact-info {
+    color: #645246;
+    font-size: 18px;
+    font-family: 'proxima_nova_rgregular';
+  }
+  .contactus .contactus-box .contactform .contact-info ul {
+    padding: 0;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li {
+    list-style-type: none;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li span {
+    padding: 0;
+    margin-bottom: 15px;
+    display: block;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li span i {
+    margin-right: 15px;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li .contact-info-title {
+    color: #645246;
+    font-family: 'proxima_novasemibold';
+  }
+  .contactus .contact-info-block {
+    float: none !important;
+  }
+  .fa-map-marker {
+    margin-left: 5px;
+  }
+  .fa-skype {
+    margin-left: 2px;
+  }
+  .fa-compass {
+    margin-left: 3px;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control::-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control:-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+  .form-control::-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+  .contactus {
+    position: relative;
+  }
+  .contactus img {
+    bottom: 0;
+    display: block;
+    min-width: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  .contactus .contactus-box .contactus-title p span {
+    font-size: 30px;
+  }
+  .contactus .contactus-box .slogan {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    color: #929292;
+    margin: 0;
+    /*position: relative;*/
+  }
+  .contactus .contactus-box .contactform {
+    padding-top: 40px;
+    padding-bottom: 118px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input,
+  .contactus .contactus-box .contactform #contact-form .form-group textarea {
+    background-color: rgba(37, 45, 64, 0.6);
+    border: 0 none;
+    color: #ffffff;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    padding: 15px 21px;
+    resize: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input:hover,
+  .contactus .contactus-box .contactform #contact-form .form-group textarea:hover {
+    cursor: pointer;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input {
+    height: 54px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group textarea {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn {
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 13px 45px;
+    margin-top: 5px;
+    background-color: #f99c44;
+    font-size: 15px;
+    font-family: 'proxima_novasemibold';
+    text-transform: uppercase;
+  }
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:hover,
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:active,
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:focus {
+    background-color: #f1b882;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box {
+    background-color: rgba(37, 45, 64, 0.7);
+    border: medium none;
+    border-radius: 0 0 4px 4px;
+    text-align: center;
+    position: relative;
+    padding-top: 60px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file {
+    color: #ffffff;
+    display: block;
+    float: none;
+    text-transform: uppercase;
+    font-family: 'proxima_novasemibold';
+    font-size: 15px;
+    margin-bottom: 0;
+    position: absolute;
+    left: 36% ;
+    top: 10px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file .up-file {
+    background: url("../images/upload-file.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 21px;
+    margin-right: 13px;
+    width: 21px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file:hover {
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-text-input {
+    position: relative;
+  }
+  .contactus .contactus-box .contactform .contactus-phone {
+    color: #645246;
+    font-family: 'proxima_novalight';
+    font-size: 40px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform .schedule-box {
+    padding: 20px 0 20px 15px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform .schedule-box .schedule-call {
+    background-color: #dc645f;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'proxima_novasemibold';
+    margin-top: 5px;
+    padding: 11px 25px;
+    text-transform: uppercase;
+  }
+  .contactus .contactus-box .contactform .schedule-box .schedule-call:hover {
+    text-decoration: none;
+    background-color: #e89692;
+  }
+  .contactus .contactus-box .contactform .map-box {
+    color: #dc645f;
+    padding: 0;
+    margin-top: 13px;
+  }
+  .contactus .contactus-box .contactform .map-box a {
+    color: #dc645f;
+    font-size: 18px;
+    font-family: 'proxima_novasemibold';
+  }
+  .contactus .contactus-box .contactform .map-box a:hover {
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform i {
+    font-size: 19px;
+    margin-right: 11px;
+  }
+  .contactus .contactus-box .contactform .contact-info {
+    color: #645246;
+    font-size: 18px;
+    font-family: 'proxima_nova_rgregular';
+  }
+  .contactus .contactus-box .contactform .contact-info ul {
+    padding: 0;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li {
+    list-style-type: none;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li span {
+    padding: 0;
+    margin-bottom: 15px;
+    display: block;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li span i {
+    margin-right: 15px;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li .contact-info-title {
+    color: #645246;
+    font-family: 'proxima_novasemibold';
+  }
+  .contactus .contact-info-block {
+    float: none !important;
+  }
+  .fa-map-marker {
+    margin-left: 5px;
+  }
+  .fa-skype {
+    margin-left: 2px;
+  }
+  .fa-compass {
+    margin-left: 3px;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control::-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control:-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+  .form-control::-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .contactus {
+    position: relative;
+  }
+  .contactus img {
+    bottom: 0;
+    display: block;
+    min-width: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  .contactus .contactus-box .contactus-title p span {
+    font-size: 30px;
+  }
+  .contactus .contactus-box .slogan {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    color: #929292;
+    margin: 0;
+    /*position: relative;*/
+  }
+  .contactus .contactus-box .contactform {
+    padding-top: 40px;
+    padding-bottom: 118px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input,
+  .contactus .contactus-box .contactform #contact-form .form-group textarea {
+    background-color: rgba(37, 45, 64, 0.6);
+    border: 0 none;
+    color: #ffffff;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    padding: 15px 21px;
+    resize: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input:hover,
+  .contactus .contactus-box .contactform #contact-form .form-group textarea:hover {
+    cursor: pointer;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input {
+    height: 54px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group textarea {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn {
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 13px 45px;
+    margin-top: 5px;
+    background-color: #f99c44;
+    font-size: 15px;
+    font-family: 'proxima_novasemibold';
+    text-transform: uppercase;
+    margin-left: -20%;
+  }
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:hover,
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:active,
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:focus {
+    background-color: #f1b882;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box {
+    background-color: rgba(37, 45, 64, 0.7);
+    border: medium none;
+    border-radius: 0 0 4px 4px;
+    padding: 22px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file {
+    color: #ffffff;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    font-family: 'proxima_novasemibold';
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file .up-file {
+    background: url("../images/upload-file.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 21px;
+    margin-right: 13px;
+    width: 21px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file:hover {
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-text-input {
+    position: relative;
+  }
+  .contactus .contactus-box .contactform .contactus-phone {
+    color: #645246;
+    font-family: 'proxima_novalight';
+    font-size: 40px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform .schedule-box {
+    padding: 20px 0 20px 15px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform .schedule-box .schedule-call {
+    background-color: #dc645f;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'proxima_novasemibold';
+    margin-top: 5px;
+    padding: 11px 25px;
+    text-transform: uppercase;
+  }
+  .contactus .contactus-box .contactform .schedule-box .schedule-call:hover {
+    text-decoration: none;
+    background-color: #e89692;
+  }
+  .contactus .contactus-box .contactform .map-box {
+    color: #dc645f;
+    padding: 0;
+    margin-top: 13px;
+  }
+  .contactus .contactus-box .contactform .map-box a {
+    color: #dc645f;
+    font-size: 18px;
+    font-family: 'proxima_novasemibold';
+  }
+  .contactus .contactus-box .contactform .map-box a:hover {
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform i {
+    font-size: 19px;
+    margin-right: 11px;
+  }
+  .contactus .contactus-box .contactform .contact-info {
+    color: #645246;
+    font-size: 18px;
+    font-family: 'proxima_nova_rgregular';
+  }
+  .contactus .contactus-box .contactform .contact-info ul {
+    padding: 0;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li {
+    list-style-type: none;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li span {
+    padding: 0;
+    margin-bottom: 15px;
+    display: block;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li span i {
+    margin-right: 15px;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li .contact-info-title {
+    color: #645246;
+    font-family: 'proxima_novasemibold';
+  }
+  .contactus .contact-info-block {
+    float: none !important;
+  }
+  .fa-map-marker {
+    margin-left: 5px;
+  }
+  .fa-skype {
+    margin-left: 2px;
+  }
+  .fa-compass {
+    margin-left: 3px;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control::-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control:-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+  .form-control::-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .contactus {
+    position: relative;
+  }
+  .contactus img {
+    bottom: 0;
+    display: block;
+    min-width: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  .contactus .contactus-box .contactus-title p span {
+    font-size: 30px;
+  }
+  .contactus .contactus-box .slogan {
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    color: #929292;
+    margin: 0;
+    /*position: relative;*/
+  }
+  .contactus .contactus-box .contactform {
+    padding-top: 40px;
+    padding-bottom: 118px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input,
+  .contactus .contactus-box .contactform #contact-form .form-group textarea {
+    background-color: rgba(37, 45, 64, 0.6);
+    border: 0 none;
+    color: #ffffff;
+    font-family: 'proxima_nova_rgregular';
+    font-size: 16px;
+    padding: 15px 21px;
+    resize: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input:hover,
+  .contactus .contactus-box .contactform #contact-form .form-group textarea:hover {
+    cursor: pointer;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group input {
+    height: 54px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-group textarea {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn {
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 13px 45px;
+    margin-top: 5px;
+    background-color: #f99c44;
+    font-size: 15px;
+    font-family: 'proxima_novasemibold';
+    text-transform: uppercase;
+  }
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:hover,
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:active,
+  .contactus .contactus-box .contactform #contact-form .top-contact-btn:focus {
+    background-color: #f1b882;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box {
+    background-color: rgba(37, 45, 64, 0.7);
+    border: medium none;
+    border-radius: 0 0 4px 4px;
+    padding: 22px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file {
+    color: #ffffff;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    font-family: 'proxima_novasemibold';
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file .up-file {
+    background: url("../images/upload-file.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    display: block;
+    float: left;
+    height: 21px;
+    margin-right: 13px;
+    width: 21px;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-btn-box .attach-file:hover {
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform #contact-form .form-text-input {
+    position: relative;
+  }
+  .contactus .contactus-box .contactform .contactus-phone {
+    color: #645246;
+    font-family: 'proxima_novalight';
+    font-size: 40px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform .schedule-box {
+    padding: 20px 0 20px 15px;
+    text-align: center;
+  }
+  .contactus .contactus-box .contactform .schedule-box .schedule-call {
+    background-color: #dc645f;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'proxima_novasemibold';
+    margin-top: 5px;
+    padding: 11px 25px;
+    text-transform: uppercase;
+  }
+  .contactus .contactus-box .contactform .schedule-box .schedule-call:hover {
+    text-decoration: none;
+    background-color: #e89692;
+  }
+  .contactus .contactus-box .contactform .map-box {
+    color: #dc645f;
+    padding: 0;
+    margin-top: 13px;
+  }
+  .contactus .contactus-box .contactform .map-box a {
+    color: #dc645f;
+    font-size: 18px;
+    font-family: 'proxima_novasemibold';
+  }
+  .contactus .contactus-box .contactform .map-box a:hover {
+    text-decoration: none;
+  }
+  .contactus .contactus-box .contactform i {
+    font-size: 19px;
+    margin-right: 11px;
+  }
+  .contactus .contactus-box .contactform .contact-info {
+    color: #645246;
+    font-size: 18px;
+    font-family: 'proxima_nova_rgregular';
+  }
+  .contactus .contactus-box .contactform .contact-info ul {
+    padding: 0;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li {
+    list-style-type: none;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li span {
+    padding: 0;
+    margin-bottom: 15px;
+    display: block;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li span i {
+    margin-right: 15px;
+  }
+  .contactus .contactus-box .contactform .contact-info ul li .contact-info-title {
+    color: #645246;
+    font-family: 'proxima_novasemibold';
+  }
+  .contactus .contact-info-block {
+    float: right !important;
+  }
+  .fa-map-marker {
+    margin-left: 5px;
+  }
+  .fa-skype {
+    margin-left: 2px;
+  }
+  .fa-compass {
+    margin-left: 3px;
+  }
+  .form-control:-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control::-ms-input-placeholder {
+    color: #ffffff;
+  }
+  .form-control:-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+  .form-control::-moz-placeholder {
+    color: #ffffff;
+    opacity: 1;
+  }
+}
